@@ -10,11 +10,25 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "f", function() awful.util.spawn("rofi -show combi") end,
     {description="Rofi", group="awesome"}),
 
+    awful.key({ modkey }, "Print", function() awful.util.spawn("scrot Pictures/Screenshot/%Y-%m-%d-%T-screenshot.png") end,
+    {description="Lock Screen", group="awesome"}),
+
     awful.key({ modkey }, "F1", function() awful.util.spawn("betterlockscreen -l dimblur") end,
     {description="Lock Screen", group="awesome"}),
 
-    awful.key({ modkey }, "Print", function() awful.util.spawn("scrot Pictures/Screenshot/%Y-%m-%d-%T-screenshot.png") end,
-    {description="Lock Screen", group="awesome"}),
+    awful.key({ modkey }, "F5", 
+        function() 
+            awful.spawn.easy_async("light -G", function(checkLight)
+                if tonumber(checkLight) > 10
+                then
+                    awful.util.spawn("light -U 10") 
+                end  
+            end)
+        end,
+    {description="Reduce light 10%", group="awesome"}),
+
+    awful.key({ modkey }, "F6", function() awful.util.spawn("light -A 10") end,
+    {description="Increase light 10%", group="awesome"}),
 
     awful.key({ modkey }, "F11", function() awful.util.spawn("pactl -- set-sink-volume 0 -10%") end,
     {description="Reduce volume 10%", group="awesome"}),
@@ -22,10 +36,8 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "F12", 
         function() 
             awful.spawn.easy_async("pamixer --get-volume", function(checkVolume)
-                if tonumber(checkVolume) >= 100
+                if tonumber(checkVolume) < 100
                 then
-                    awful.util.spawn("pactl -- set-sink-volume 0 100%") 
-                else
                     awful.util.spawn("pactl -- set-sink-volume 0 +10%") 
                 end  
             end)
@@ -143,12 +155,6 @@ globalkeys = gears.table.join(
 )
 
 clientkeys = gears.table.join(
-    awful.key({ modkey }, "f",
-        function (c)
-            c.fullscreen = not c.fullscreen
-            c:raise()
-        end,
-    {description = "toggle fullscreen", group = "client"}),
 
     awful.key({ modkey, "Shift" }, "c", function (c) c:kill() end,
     {description = "close", group = "client"}),

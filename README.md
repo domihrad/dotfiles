@@ -24,7 +24,4 @@ Arch Linux & AwesomeWM Dotfiles!
 - **Lockscreen:** [BetterLockScreen](https://github.com/betterlockscreen/betterlockscreen)
 
 
-<img src="README-ASSETS/image-data.png"><br>
-
-
-Pacman Packages => <a href="pacman-packages.txt">Pacman Packages</a>
+<img src="README-ASSETS/image-data.png">
