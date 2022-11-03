@@ -25,3 +25,5 @@ Arch Linux & AwesomeWM Dotfiles!
 
 
 <img src="README-ASSETS/image-data.png">
+
+Pacman Packages => <a href="pacman-packages.txt">Pacman Packages</a>
