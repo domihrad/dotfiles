@@ -4,6 +4,8 @@ Arch Linux & AwesomeWM Dotfiles!
 
 <img src="README-ASSETS/image-background.png">
 
+Docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
+
 ## Information
 
 - **OS:** [Arch Linux](https://archlinux.org)
@@ -26,4 +28,4 @@ Arch Linux & AwesomeWM Dotfiles!
 
 <img src="README-ASSETS/image-data.png">
 
-<a href="docs/init.md" rel="noreferrer noopener">docs here</a>
+Docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
