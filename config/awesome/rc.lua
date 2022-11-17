@@ -22,7 +22,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 require("awful.hotkeys_popup.keys")
 
 -- Display errors if something is broken
---require "section.error"
+require "section.error"
 
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 

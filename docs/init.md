@@ -2,7 +2,14 @@
 
 this repository is on how to manage and change your dotfiles to AwesomeWM
 
-in the config folder there are mine AwesomeWM configs, polybar menu, kitty terminal and more  
+~/config
+- in the directory there are mine AwesomeWM configs, polybar awesome, kitty terminal, etc.
 
-to change wallpaper on AwesomeWM ( mine wallpaper <a href="../config-assets/background.png" rel="noreferrer noopener">here</a> )
+- inside of the ~/config/awesome/ directory there is a sections of the awesome config like the keybinds, menu, screen, etc.  
+
+~/config-assets
+- in this directory there is a wallpaper on AwesomeWM ( wallpaper <a href="../config-assets/background.png" rel="noreferrer noopener">here</a> )
+
 - /usr/share/awesome/themes/default/background.png
+
+
