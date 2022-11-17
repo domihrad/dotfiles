@@ -2,7 +2,7 @@
 
 arch Linux & AwesomeWM Dotfiles! 
 
-docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
+- docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
 
 <img src="README-ASSETS/image-background.png">
 
