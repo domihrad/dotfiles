@@ -25,3 +25,5 @@ Arch Linux & AwesomeWM Dotfiles!
 
 
 <img src="README-ASSETS/image-data.png">
+
+<a href="docs/init.md" rel="noreferrer noopener">docs here</a>
