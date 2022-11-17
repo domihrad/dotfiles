@@ -1,8 +1,8 @@
 # AwesomeWM Dotfiles
 
-Arch Linux & AwesomeWM Dotfiles! 
+arch Linux & AwesomeWM Dotfiles! 
 
-Docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
+docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
 
 <img src="README-ASSETS/image-background.png">
 
@@ -25,7 +25,4 @@ Docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
 
 - **Lockscreen:** [BetterLockScreen](https://github.com/betterlockscreen/betterlockscreen)
 
-
 <img src="README-ASSETS/image-data.png">
-
-Docs <a href="docs/init.md" rel="noreferrer noopener">here</a>
