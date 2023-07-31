@@ -14,16 +14,15 @@ this repository is on how to manage and change your dotfiles to AwesomeWM
 
 ~/screen using xrandr
 
-- to setup duplicate screen on monitor
+to setup duplicate screen on monitor
 
 - xrandr --output HDMI-1 --mode 1920x1080
 
-
-- to setup second window on right side
+to setup second window on right side
 
 - xrandr --output HDMI-1 --mode 1920x1080 --right-of eDP-1
 
-- to setup second window on left side
+to setup second window on left side
 
 - xrandr --output HDMI-1 --mode 1920x1080 --left-of eDP-1
 
